@@ -1,0 +1,219 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.header img{
+    float:left;
+    width: 110px;
+    height: 110px;
+    background-color: white;
+
+}
+
+.header h1{
+    position: relative;
+    top: 18px;
+     
+}
+#title{
+  height:80px;
+  font-size: 50px;
+}
+/* Grid CSS */
+
+#heroGrid {
+  margin: -20px 5%;
+  display: grid;
+  min-height: 670px;
+  height: 77vh;
+  background-image: url(../images/UNADJUSTEDNONRAW_thumb_99b.jpg);
+  background-repeat: no-repeat;
+  
+}
+
+#shortIntro {
+
+  background-color:rgb(218,247, 166, 0.8);
+  padding: 65px;
+  position: absolute;
+  right: 160px;
+  top: 100px;
+  max-width: 550px;
+  z-index: 100;
+
+  
+}
+
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+/* Category Grid CSS */
+
+.subHeading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin: 50px auto;
+}
+
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "ios android website"
+  "android vr ar"
+  
+
+}
+
+ #ios {
+  grid-area: ios;
+  background-image: url("../images/bookcases@2x.png");
+
+}
+#android {
+  grid-area: android;
+  background-image: url("../images/beds@2x.png");
+}
+
+#website {
+  grid-area: website;
+  background-image: url("../images/couch@2x.png");
+}
+
+#vr {
+  grid-area: vr;
+  background-image: url("../images/patio@2x.png");
+}
+
+#ar {
+  grid-area: ar;
+  background-image: url("../images/desks@2x.png");
+} 
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.heading {
+  background-color: rgb(218,247, 166, 0.5) ;
+  padding: 15px;
+  height: 25px;
+  color: black;
+  font-size: 18px;
+
+}
+
+
+/* Navigation CSS */
+/* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 18px 5%;
+}
+#navBar h1 {
+  width: 70%;
+  font-weight: 500;
+}
+#navigation {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: flex-end;
+}
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+}
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+}
+.social img {
+  margin: 15px;
+  cursor: pointer;
+}
+
+/* Typography CSS */
+
+h2 {
+  font-size: 60px;
+  margin: 10px 0px;
+  color: #FF5733;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0px 0px;
+}
+
+
+#shortIntro p {
+    
+  font-size: 16px;
+  font-weight: 300;
+  margin: 20px ;
+  color:black;
+}
+
+/*@media only screen and (max-width: 1000px) {
+  #navigation {
+    display: none;
+  }
+  .icons {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #ShortIntro {
+    position: static;
+    margin: 20px;
+  }
+  */
+  
+ #categoryGrid {
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "ios"
+      "android"
+      "website"
+      "vr"
+      "ar"
+    ;
+ }
+
+h8{
+  font-size: 20px;
+  font-weight: 800;
+
+}
+.facts{
+  position: relative;
+  left: 500px;
+  margin: 600px;
+
+}
+li{
+  margin: 8px;
+}
