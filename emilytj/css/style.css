@@ -206,14 +206,21 @@ h3 {
 h5 {
   font-size: 20px;
   font-weight: 800;
+  text-align: end;
 
 }
 .facts{
   position: relative;
-  left: 500px;
-  margin: 600px;
+  margin: 250px;
+ 
 
 }
 li{
   margin: 8px;
+  padding-right: 0.6em;
+  
+}
+
+ul{
+  text-align: right;
 }
