@@ -212,7 +212,7 @@ h5 {
 .facts{
   position: relative;
   margin: 250px;
- 
+  display: table-footer-group;
 
 }
 li{
